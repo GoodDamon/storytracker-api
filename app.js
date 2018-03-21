@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
+const cors = require('cors');
+
 const config = require('./config/default.js');
 const routes = require('./config/routes.js');
 const logger = require('./lib/logger.js');
@@ -15,6 +17,7 @@ app.set('dbInterface', dbInterface);
 
 app.use(logger);
 app.use(cookieParser());
+app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('static'));
