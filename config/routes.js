@@ -1,5 +1,7 @@
 module.exports = {
     'API_LOGIN': '/api/login',
+    'API_SIGNUP_TEST': '/api/signupTest',
+    'API_SIGNUP': '/api/signup',
     'API_STORIES': '/api/stories',
     'API_STORY': '/api/stories/:storyId',
     'API_SUBMISSIONS': '/api/stories/:storyId/submissions',
