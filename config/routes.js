@@ -1,5 +1,6 @@
 module.exports = {
     'API_LOGIN': '/api/login',
+    'API_LOGOUT': '/api/logout',
     'API_SIGNUP_TEST': '/api/signupTest',
     'API_SIGNUP': '/api/signup',
     'API_STORIES': '/api/stories',
