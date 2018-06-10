@@ -3,8 +3,12 @@
   "version": "0.0.1",
   "description": "Service api for StoryTracker",
   "main": "app.js",
+  "engines": {
+    "node": "9.8.0"
+  },
   "scripts": {
-    "test": "jest test/app.test.js"
+    "test": "jest test/app.test.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +22,9 @@
   "author": "Damon Kaswell",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GoodDamon/storytracker-api/issues"
+    "url": "https://github.com/dekoding/storytracker-api/issues"
   },
-  "homepage": "https://github.com/GoodDamon/storytracker-api#readme",
+  "homepage": "https://github.com/dekoding/storytracker-api#readme",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.2",
