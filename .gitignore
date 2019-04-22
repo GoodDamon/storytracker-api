@@ -59,4 +59,3 @@ typings/
 
 # Application-specific ignores
 config/*.json
-static/*
